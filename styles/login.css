@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+    margin: 0;
+  padding: 0;
+}
+
+.head-form > p{
+  margin: 0;
+}
+
+#form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head-form > p{
+  font-size: 20px;
+}
+
+input[type="text"], input[type="password"] {
+  min-height: 44px;
+}
+
+form button.btn {
+  padding: 15px;
+  font-weight: bold;
+}
+/* .login-box {
+  border: 2px solid black;
+} */

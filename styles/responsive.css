@@ -1,0 +1,13 @@
+@media screen and (min-width: 1199.98px) {
+  #hero {
+    background-attachment: fixed;
+  }
+
+  #form-login {
+    width: 30%;
+  }
+
+  section {
+    padding: 100px 80px;
+  }
+}

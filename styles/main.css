@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background-color: white;
+}
+
+#hero {
+  width: 100%;
+  height: 80vh;
+  background: url('../image/hero.png') top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero p {
+  font-size: 20px;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 37px;
+  color: white;
+  padding: 10px 36px 10px 36px;
+}
+
+.btn-yellow,
+.btn-yellow:hover {
+  background-color: #ffa62b;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.section-bg {
+  background-color: #f6f6f6;
+  width: 100%;
+}
+
+.box {
+  border: 1px solid red;
+}

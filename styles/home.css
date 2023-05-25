@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #174063;
+}
+
+footer {
+  background-color: #174063;
+  color: white;
+}

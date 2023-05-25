@@ -1,13 +1,19 @@
-@media screen and (min-width: 1199.98px) {
+@media screen and (min-width: 500px) {
+  #form-login {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   #hero {
     background-attachment: fixed;
   }
 
   #form-login {
-    width: 30%;
+    width: 700px;
   }
 
   section {
-    padding: 100px 80px;
+    padding: 100px;
   }
 }

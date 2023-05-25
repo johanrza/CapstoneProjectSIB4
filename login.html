@@ -15,31 +15,30 @@
     />
   </head>
   <body>
-    <main id="form-login" class="container min-vh-100">
+    <main id="form-login" class="container-fluid min-vh-100">
       <section class="border border-black">
-        <div class="form-header d-flex justify-content-between">
-          <div class="head-form mb-4">
-            <p>Hello, Again!</p>
-            <h2>Login</h2>
-          </div>
-          <div>
-            <img src="./image/marin_logo 1.svg" alt="">
-          </div>
-        </div>
-
-        <form class="row g-3">
-          <div class="col-md-12">
-            <label for="validationDefault01" class="form-label">Username</label>
-            <input type="text" class="form-control" id="validationDefault01" required>
+        <form class="row g-3 m-auto">
+          <div class="form-header d-flex justify-content-between">
+            <div class="head-form mb-4">
+              <p>Hello, Again!</p>
+              <h2>Login</h2>
+            </div>
+            <div>
+              <img src="./image/marin_logo 1.svg" alt="Logo">
+            </div>
           </div>
           <div class="col-md-12">
-            <label for="validationDefault02" class="form-label">Password</label>
-            <input type="password" class="form-control" id="validationDefault02" required>
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" required>
+          </div>
+          <div class="col-md-12">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" required>
           </div>
           <div class="col-5 py-3">
             <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-              <label class="form-check-label" for="invalidCheck2">
+              <input class="form-check-input" type="checkbox" value="" id="remember-me" required>
+              <label class="form-check-label" for="remember-me">
                 Remember Me
               </label>
             </div>

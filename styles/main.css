@@ -26,7 +26,7 @@ body {
   font-size: 20px;
 }
 
-.btn {
+#hero a {
   font-weight: 700;
   border-radius: 37px;
   color: white;
@@ -40,13 +40,38 @@ body {
 
 section {
   padding: 60px 0;
+  overflow: hidden;
 }
 
-.section-bg {
+.sections-bg-gray {
   background-color: #f6f6f6;
   width: 100%;
 }
 
+.sections-bg-navy {
+  background-color: #174063;
+  width: 100%;
+  color: white;
+}
+
+.sections-header p {
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  max-width: 864px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
 .box {
   border: 1px solid red;
+}
+
+.accordion-item {
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.accordion-button {
+  padding: 20px;
+  font-weight: 600;
 }

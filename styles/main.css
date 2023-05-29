@@ -20,6 +20,7 @@ body {
   background: url('../image/hero.png') top center;
   background-size: cover;
   position: relative;
+  color: white;
 }
 
 #hero p {
@@ -29,8 +30,11 @@ body {
 #hero a {
   font-weight: 700;
   border-radius: 37px;
-  color: white;
   padding: 10px 36px 10px 36px;
+}
+
+#card {
+  margin-top: 20px;
 }
 
 .btn-yellow,
@@ -59,7 +63,6 @@ section {
   line-height: 20px;
   max-width: 864px;
   margin-top: 20px;
-  margin-bottom: 50px;
 }
 
 .box {

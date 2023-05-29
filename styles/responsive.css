@@ -5,9 +5,9 @@
 }
 
 @media screen and (min-width: 1200px) {
-  #hero {
+  /* #hero {
     background-attachment: fixed;
-  }
+  } */
 
   #form-login {
     width: 700px;

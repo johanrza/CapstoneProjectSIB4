@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="styles/responsive.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg sticky-top py-3">
+    <nav class="navbar navbar-expand-lg sticky-top py-3 shadow">
       <div class="container gap-3">
         <a class="navbar-brand" href="#">
           <img
@@ -49,18 +49,18 @@
     </nav>
     
     <main id="home">
-      <section id="hero" class="d-flex justify-content-center align-items-center">
-        <div class="container position-relative gap-3">
+      <section id="hero" class="d-flex justify-content-center align-items-center vh-100">
+        <div class="container position-relative">
           <div class="col-md-6">
-            <h1 class="fw-bold">
+            <h1 class="fw-bold mb-4">
               MARIN - Aplikasi Teknologi untuk Kemajuan Nelayan
             </h1>
-            <p>
+            <p class="mb-4">
               Aplikasi terpercaya yang memberikan informasi terkini dan membantu
               meningkatkan kesejahteraan nelayan Indonesia.
             </p>
-            <a href="./login.html" class="btn btn-yellow me-3 my-3">Get Started</a>
-            <a href="#" class="btn btn-outline-light me-3 my-3">Sign Up</a>
+            <a href="./login.html" class="btn btn-yellow me-3 my-3 mb-4">Get Started</a>
+            <a href="#" class="btn btn-outline-light me-3 my-3 mb-4">Sign Up</a>
           </div>
         </div>
       </section>
@@ -170,10 +170,10 @@
             <h2 class="fw-bold">Artikel</h2>
             <p>Menyajikan berita terbaru dan informasi terkait kemaritiman Indonesia untuk menjaga nelayan tetap terhubung dengan perkembangan sektor perikanan.</p>
           </div>
-          <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div id="card" class="row row-cols-1 row-cols-md-4 g-4">
             <div class="col">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="https://picsum.photos/500/300" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -183,7 +183,7 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="https://picsum.photos/500/300" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a short card.</p>
@@ -193,7 +193,7 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="https://picsum.photos/500/300" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -203,7 +203,7 @@
             </div>
             <div class="col">
               <div class="card h-100">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="https://picsum.photos/500/300" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -213,6 +213,66 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <section class="sections-bg-gray">
+        <div class="container">
+          <div class="sections-header text-center d-flex justify-content-center align-items-center flex-column">
+            <h2 class="fw-bold">Tentang Kami</h2>
+            <p class="fw-semibold">Kami adalah tim yang berkomitmen untuk memajukan sektor perikanan dengan mengembangkan solusi teknologi yang memberdayakan nelayan Indonesia.</p>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-xl-3 col-sm-6 mt-5">
+              <div class="bg-white rounded shadow py-5 px-4"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="" width="180" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Orang 1</h5><span class="small text-uppercase text-muted">UI/UX</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-github"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-sm-6 mt-5">
+              <div class="bg-white rounded shadow py-5 px-4"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="" width="180" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Prang 2</h5><span class="small text-uppercase text-muted">UI/UX</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-github"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-sm-6 mt-5">
+              <div class="bg-white rounded shadow py-5 px-4"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="" width="180" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Orang 3</h5><span class="small text-uppercase text-muted">UI/UX</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-github"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-xl-3 col-sm-6 mt-5">
+              <div class="bg-white rounded shadow py-5 px-4"><img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_640.png" alt="" width="180" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Orang 4</h5><span class="small text-uppercase text-muted">UI/UX</span>
+                <ul class="social mb-0 list-inline mt-3">
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-github"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></li>
+                  <li class="list-inline-item"><a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div> 
       </section>
     </main>
 

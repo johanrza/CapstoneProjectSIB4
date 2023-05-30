@@ -41,6 +41,10 @@ body {
   margin-top: 20px;
 }
 
+#kontak {
+  width: 90%;
+}
+
 .btn-yellow,
 .btn-yellow:hover {
   background-color: #ffa62b;

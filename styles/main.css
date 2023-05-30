@@ -153,6 +153,11 @@ input[type='email'] {
   margin-right: 10px;
 }
 
+.footer .social-links a:hover {
+  border-color: #174063;
+  color: #174063;
+}
+
 .footer h4 {
   font-size: 16px;
   font-weight: bold;

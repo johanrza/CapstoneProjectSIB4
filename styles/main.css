@@ -86,3 +86,7 @@ input[type="text"], input[type="email"] {
 .box-shadow {
   box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.51);
 }
+
+.footer-copyright{
+  background-color: #174063;
+}

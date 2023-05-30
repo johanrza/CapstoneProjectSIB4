@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -79,10 +83,135 @@ section {
   font-weight: 600;
 }
 
-input[type="text"], input[type="email"] {
+input[type='text'],
+input[type='email'] {
   min-height: 44px;
 }
 
 .box-shadow {
-  box-shadow: -1px 1px 14px -2px rgba(0,0,0,0.51);
+  box-shadow: -1px 1px 14px -2px rgba(0, 0, 0, 0.51);
+}
+
+.social {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.social a {
+  color: #a2a2a2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bbbbbb;
+}
+
+/* footer */
+
+.footer {
+  font-size: 14px;
+  padding: 50px 0;
+}
+
+.footer .footer-info .footer-title {
+  line-height: 0;
+  margin-bottom: 25px;
+}
+
+.footer .footer-info .footer-title img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-info .footer-title span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: black;
+}
+
+.footer .footer-info p {
+  font-size: 14px;
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.footer h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-links ul i {
+  padding-right: 2px;
+  color: rgba(255, 0, 0, 0.8);
+  font-size: 12px;
+  line-height: 0;
+}
+
+.footer .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-links ul a {
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+  font-weight: 600;
+  color: #737373;
+}
+
+.footer .footer-links ul a:hover {
+  color: black;
+}
+
+.footer .footer-contact p {
+  line-height: 26px;
+}
+
+.footer .copyright {
+  text-align: center;
+}
+
+.footer .social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  margin-right: 10px;
+  color: black;
 }

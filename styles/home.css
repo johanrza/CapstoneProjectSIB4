@@ -8,10 +8,21 @@ nav {
   background-color: #174063;
 }
 
-footer {
+.footer {
   background-color: #174063;
   color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
 }
+
+i {
+  color: white;
+  font-size: 20px;
+}
+
 
 /* Preloader */
 
@@ -31,20 +42,20 @@ footer {
   inset: 0;
   z-index: 999999;
   overflow: hidden;
-  background: #fff;
+  background: white;
   transition: all 0.6s ease-out;
 }
 
 #preloader:before {
-  content: "";
+  content: '';
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border-radius:50%;
-  background:
-    radial-gradient(farthest-side,#3099F0 94%,#0000) top/8px 8px no-repeat,
-    conic-gradient(#0000 10%,#3099F0);
-  -webkit-mask:radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #3099f0 94%, #0000) top/8px 8px
+      no-repeat,
+    conic-gradient(#0000 10%, #3099f0);
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
   width: 90px;
   height: 90px;
   animation: animate-preloader 1.5s linear infinite;

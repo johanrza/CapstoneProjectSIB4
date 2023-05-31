@@ -41,8 +41,14 @@ body {
   margin-top: 20px;
 }
 
-#kontak {
-  width: 90%;
+#kontak img[alt='Contact Image'] {
+  display: none;
+  height: 100%;
+}
+
+.form {
+  margin: 2rem 0;
+  color: black;
 }
 
 .btn-yellow,

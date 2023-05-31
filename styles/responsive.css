@@ -4,10 +4,34 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  .form {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #kontak .row {
+    margin: 0 auto;
+  }
+
+  #kontak img[alt="Contact Image"]  {
+    display: block;
+  }
+
+  .form {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   /* #hero {
     background-attachment: fixed;
   } */
+  #kontak .row {
+    width: 80%;
+  }
 
   #form-login {
     width: 700px;

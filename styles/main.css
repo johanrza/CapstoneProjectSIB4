@@ -43,7 +43,6 @@ body {
 
 #kontak img[alt='Contact Image'] {
   display: none;
-  height: 100%;
 }
 
 .form {
@@ -139,6 +138,12 @@ input[type='email'] {
   align-items: center;
   justify-content: center;
   border: 1px solid #bbbbbb;
+}
+
+.team-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
 }
 
 /* footer */

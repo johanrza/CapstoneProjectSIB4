@@ -45,6 +45,10 @@ body {
   display: none;
 }
 
+#keunggulan .row {
+  width: 100%;
+}
+
 .form {
   margin: 2rem 0;
   color: black;
@@ -91,15 +95,15 @@ section {
 }
 
 .box:hover {
-  background-color: #f2f2f2;
+  background-color: #e3e3e3;
 }
 
 .icon-left {
-  margin-right: 10px;
-}
-
-.text-right {
-  text-align: right;
+  margin-right: 20px;
+  background-color: #174063;
+  padding: 20px;
+  color: white;
+  font-size: 1.7rem;
 }
 
 .accordion-item {

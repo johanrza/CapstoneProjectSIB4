@@ -15,7 +15,7 @@ async function getNews() {
     const newData = { news: [] };
 
     $('.list-berita article').each(function (i, element) {
-      if (i > 5) {
+      if (i > 7) {
         return false;
       }
 

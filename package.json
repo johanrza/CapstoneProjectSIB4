@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "fetch-news": "node scripts/scraping/getNews.js"
+    "news-update": "node scripts/scraping/getNews.js"
   },
   "keywords": [],
   "author": "Johan Reza F",

@@ -28,7 +28,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-  #kontak .row {
+  .alert, #kontak .row {
     width: 80%;
   }
 

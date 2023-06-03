@@ -1,0 +1,16 @@
+{
+  "name": "capstone-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "news-update": "node scripts/scraping/getNews.js"
+  },
+  "keywords": [],
+  "author": "Johan Reza F",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}

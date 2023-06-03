@@ -18,6 +18,10 @@ body {
   background-color: white;
 }
 
+#card a {
+  min-height: 44px;
+}
+
 #hero {
   width: 100%;
   height: 80vh;

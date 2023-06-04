@@ -4,6 +4,12 @@
   }
 }
 
+@media screen and (min-width: 576px) {
+  .card-title {
+    height: 96px;
+  }  
+}
+
 @media screen and (max-width: 992px) {
   .form {
     width: 100%;
@@ -28,6 +34,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .card-title {
+    min-height: 96px;
+  }  
+
   .alert, #kontak .row {
     width: 80%;
   }

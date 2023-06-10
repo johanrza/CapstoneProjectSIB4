@@ -2,12 +2,20 @@
   #form-login {
     width: 450px;
   }
+
+  #navMobile {
+    display: none;
+  }
+
+  #navDrawer, #footer {
+    display: block !important;
+  }
 }
 
 @media screen and (min-width: 576px) {
   .card-title {
     height: 96px;
-  }  
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -17,11 +25,19 @@
 }
 
 @media screen and (min-width: 992px) {
+  #nav {
+    display: flex !important;
+  }
+
+  #navDrawer {
+    display: none !important;
+  }
+
   #kontak .row {
     margin: 0 auto;
   }
 
-  #kontak img[alt="Contact Image"]  {
+  #kontak img[alt='Contact Image'] {
     display: block;
     height: 100%;
     object-fit: cover;
@@ -36,9 +52,10 @@
 @media screen and (min-width: 1200px) {
   .card-title {
     min-height: 96px;
-  }  
+  }
 
-  .alert, #kontak .row {
+  .alert,
+  #kontak .row {
     width: 80%;
   }
 

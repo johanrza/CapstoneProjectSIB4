@@ -8,6 +8,10 @@ nav {
   background-color: #174063;
 }
 
+.nav-pills li a {
+  border-radius: 0 !important;
+}
+
 .footer {
   background-color: #174063;
   color: white;
@@ -21,6 +25,10 @@ nav {
 i {
   color: white;
   font-size: 20px;
+}
+
+#navDrawer button {
+  background-color: #174063;
 }
 
 

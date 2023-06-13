@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width: 576px) {
-  .card-title {
+  #newsBody .card-title {
     height: 96px;
   }
 }
@@ -50,8 +50,8 @@
 }
 
 @media screen and (min-width: 1200px) {
-  .card-title {
-    min-height: 96px;
+  #newsBody .card-title {
+    height: 96px;
   }
 
   .alert,

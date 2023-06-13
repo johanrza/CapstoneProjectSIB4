@@ -47,6 +47,10 @@
     margin-top: 3rem;
     margin-bottom: 3rem;
   }
+
+  .weather-widget {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 1200px) {

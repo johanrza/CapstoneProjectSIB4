@@ -84,11 +84,10 @@ i {
   position: fixed;
   top: 20px;
   right: 20px;
-  /* width: 15vw; */
+  display: none;
   height: 100px;
 }
 .weather-icon img {
-  /* width: 80px; */
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 1));
 }
 .card {
@@ -124,5 +123,4 @@ sup {
   font-size: 14px;
   color: red;
   text-align: center;
-  /* margin: 0 3px 3px; */
 }

@@ -1,6 +1,24 @@
 {
   "news": [
     {
+      "image": "https://akcdn.detik.net.id/community/media/visual/2023/06/10/nelayan-ditemukan-tewas_43.jpeg?w=250&q=",
+      "title": "Nelayan Bima yang Hilang Saat Jala Ikan Ditemukan Meninggal",
+      "description": "Syafruddin alias One, nelayan di Bima yang dilaporkan hilang akhirnya ditemukan meninggal dunia.",
+      "newsUrl": "https://www.detik.com/bali/nusra/d-6765880/nelayan-bima-yang-hilang-saat-jala-ikan-ditemukan-meninggal"
+    },
+    {
+      "image": "https://akcdn.detik.net.id/community/media/visual/2023/06/10/airlangga-hartarto_43.jpeg?w=250&q=",
+      "title": "Airlangga Beberkan Upaya Pemerintah Genjot Kesejahteraan Petani & Nelayan",
+      "description": "Pemerintah telah menjadikan Ketahanan Pangan sebagai aspek penting dalam Agenda Pembangunan Nasional tahun 2022-2024.",
+      "newsUrl": "https://news.detik.com/berita/d-6765494/airlangga-beberkan-upaya-pemerintah-genjot-kesejahteraan-petani--nelayan"
+    },
+    {
+      "image": "https://akcdn.detik.net.id/community/media/visual/2023/06/09/nelayan-tenggelam-di-bima_43.jpeg?w=250&q=",
+      "title": "Nelayan Bima Diduga Tenggelam, Perahunya Terdampar di Pantai",
+      "description": "Seorang nelayan di Kabupaten Bima, Nusa Tenggara Barat (NTB), dilaporkan menghilang di perairan Sape, Bima.",
+      "newsUrl": "https://www.detik.com/bali/nusra/d-6764018/nelayan-bima-diduga-tenggelam-perahunya-terdampar-di-pantai"
+    },
+    {
       "image": "https://akcdn.detik.net.id/community/media/visual/2023/06/01/pt-timah-tbk_43.jpeg?w=250&q=",
       "title": "PT Timah Tanggapi Penolakan Aktivitas Tambang, Sebut Miliki IUP",
       "description": "Pihak PT Timah Tbk menanggapi aksi penolakan akan beroperasinya aktivitas tambang timah dari para nelayan di Pulau Bangka. Mereka menegaskan telah memiliki IUP.",
@@ -29,24 +47,6 @@
       "title": "Menengok Galangan Kapal Nelayan",
       "description": "Di Banda Aceh terdapat galangan tradisional yang membuat dan memperbaiki kapal nelayan. Yuk tengok kesibungan di galangan tradisional tersebut.",
       "newsUrl": "https://finance.detik.com/foto-bisnis/d-6745576/menengok-galangan-kapal-nelayan"
-    },
-    {
-      "image": "https://akcdn.detik.net.id/community/media/visual/2023/05/11/perahu-slerek-nelayan-di-desa-pengambengan_43.jpeg?w=250&q=",
-      "title": "Kegiatan yang Memanfaatkan Sumber Daya Alam di Kehidupan Sehari-hari",
-      "description": "Contoh berbagai macam bahan yang dapat diambil dari sumber daya alam untuk memanfaatkan bagian pentingnya bagi kelangsungan kehidupan manusia sehari-hari.",
-      "newsUrl": "https://www.detik.com/edu/detikpedia/d-6742451/kegiatan-yang-memanfaatkan-sumber-daya-alam-di-kehidupan-sehari-hari"
-    },
-    {
-      "image": "https://akcdn.detik.net.id/community/media/visual/2023/05/22/pemprov-jateng-meneken-mou-perlindungan-pekerja-migran-kapal-perikanan-dan-nelayan-dok-istimewa-2_43.jpeg?w=250&q=",
-      "title": "Pemprov Jateng Teken MoU dengan IOJI soal Perlindungan Nelayan",
-      "description": "Penandatanganan MoU ini dilakukan setelah upacara peringatan Hari Kebangkitan Nasional ke-115 yang bertemakan 'Semangat untuk Bangkit'.",
-      "newsUrl": "https://news.detik.com/berita/d-6732416/pemprov-jateng-teken-mou-dengan-ioji-soal-perlindungan-nelayan"
-    },
-    {
-      "image": "https://akcdn.detik.net.id/community/media/visual/2023/05/17/nelayan-di-bangladesh-puasa-melaut-imbas-topan-di-myanmar-1_43.jpeg?w=250&q=",
-      "title": "Nelayan di Bangladesh Puasa Melaut Imbas Topan di Myanmar",
-      "description": "Puluhan nelayan di Bangladesh libur melaut akibat dampak siklon Mocha di Myanmar. Topan Mocha itu menyebabkan kerusakan di Myanmar dan perbatasan Bangladesh.",
-      "newsUrl": "https://news.detik.com/foto-news/d-6724927/nelayan-di-bangladesh-puasa-melaut-imbas-topan-di-myanmar"
     }
   ]
 }

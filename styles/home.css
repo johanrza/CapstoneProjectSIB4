@@ -6,6 +6,8 @@
 
 nav {
   background-color: #174063;
+  position: fixed;
+  z-index: 2;
 }
 
 .nav-pills li a {
@@ -15,11 +17,8 @@ nav {
 .footer {
   background-color: #174063;
   color: white;
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
-  z-index: -1;
+  z-index: 1;
 }
 
 i {
@@ -79,18 +78,19 @@ i {
   }
 }
 
-/* Weather */
+/* Weather widget */
 .weather-widget {
   position: fixed;
   top: 20px;
   right: 20px;
   display: none;
   height: 100px;
+  z-index: -1;
 }
-.weather-icon img {
+.weather-widget .weather-icon img {
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 1));
 }
-.card {
+.weather-widget .card {
   border-radius: 9px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 16px;
@@ -99,19 +99,19 @@ i {
   -webkit-backdrop-filter: blur(6.1px);
   border: 1px solid rgba(255, 255, 255, 0.31);
 }
-.card-title {
+.weather-widget .card-title {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 5px;
 }
-.card-text {
+.weather-widget .card-text {
   font-size: 14px;
   margin-bottom: 5px;
 }
-.card-body {
+.weather-widget .card-body {
   padding: 0;
 }
-.weather-temp {
+.weather-widget .weather-temp {
   margin-right: 20px;
 }
 sup {
@@ -119,8 +119,32 @@ sup {
   position: relative;
   top: -20px;
 }
-.error-message {
+.weather-widget .error-message {
   font-size: 14px;
   color: red;
   text-align: center;
+}
+
+/* search & card weather */
+
+#weatherInputCity.container {
+  margin: 0 auto;
+}
+
+#weatherInputCity h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#weatherCardContainer {
+  margin-bottom: 100px;
+}
+
+#weatherCardContainer img + p {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#weatherCardContainer .card-img-top {
+  max-width: 200px;
 }

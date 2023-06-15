@@ -51,6 +51,22 @@
   .weather-widget {
     display: block;
   }
+
+  #weatherInputCity {
+    max-width: 1000px;
+  }
+
+  #weatherInputCity > div {
+    margin-left: 70px;
+  }
+
+  #weatherCardContainer {
+    max-width: 1200px;
+  }
+
+  #weatherCardContainer > div {
+    margin-left: 60px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -67,7 +83,7 @@
     width: 700px;
   }
 
-  section {
+  .p-6 {
     padding: 100px;
   }
 }

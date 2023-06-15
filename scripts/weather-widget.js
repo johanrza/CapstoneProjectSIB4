@@ -1,4 +1,4 @@
-const apiKey = 'YOUR_API_KEY';
+import apiKey from './apikey.js';
 
 const cityElement = document.getElementById('city');
 const temperatureElement = document.getElementById('temperature');

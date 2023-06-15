@@ -4,8 +4,23 @@
   padding: 0;
 }
 
+/* MAPS */
+.leaflet-bottom {
+  bottom: 58px;
+}
+
+.marker-pin:before {
+  color: transparent;
+  position: relative;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: rgb(39, 34, 119);
+  background-image: linear-gradient(175deg, rgba(39, 34, 119, 1) 0%, rgba(29, 29, 132, 1) 16%, rgba(2, 162, 222, 1) 44%, rgba(255, 255, 255, 1) 100%);
+}
+
 nav {
   background-color: #174063;
+  opacity: 0.8;
 }
 
 .nav-pills li a {
@@ -20,6 +35,7 @@ nav {
   bottom: 0;
   width: 100%;
   z-index: -1;
+  opacity: 0.8;
 }
 
 i {
@@ -60,8 +76,7 @@ i {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border-radius: 50%;
-  background: radial-gradient(farthest-side, #3099f0 94%, #0000) top/8px 8px
-      no-repeat,
+  background: radial-gradient(farthest-side, #3099f0 94%, #0000) top/8px 8px no-repeat,
     conic-gradient(#0000 10%, #3099f0);
   -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
   width: 90px;
@@ -87,9 +102,11 @@ i {
   display: none;
   height: 100px;
 }
+
 .weather-icon img {
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 1));
 }
+
 .card {
   border-radius: 9px;
   background: rgba(255, 255, 255, 0.05);
@@ -99,26 +116,32 @@ i {
   -webkit-backdrop-filter: blur(6.1px);
   border: 1px solid rgba(255, 255, 255, 0.31);
 }
+
 .card-title {
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 5px;
 }
+
 .card-text {
   font-size: 14px;
   margin-bottom: 5px;
 }
+
 .card-body {
   padding: 0;
 }
+
 .weather-temp {
   margin-right: 20px;
 }
+
 sup {
   font-size: 20px;
   position: relative;
   top: -20px;
 }
+
 .error-message {
   font-size: 14px;
   color: red;

@@ -60,7 +60,7 @@ var map = L.map("map").setView([-3.200000, 118.816666], 5);
 
     let icon = L.divIcon({
       className: "custom-div-icon",
-      html: `<i class="fas fa-map-marker-alt marker-pin"></i>`,
+      html: `<i class="fa-solid fa-fish marker-pin"></i>`,
       iconSize: [30, 33],
       iconAnchor: [15, 42],
       popupAnchor: [0, -40],
@@ -88,10 +88,10 @@ var map = L.map("map").setView([-3.200000, 118.816666], 5);
       layerGroup.clearLayers();
     }
     let marker = null;
-    for (let d of data_indonesia) {
+    for (let d of data_ikan_indonesia) {
       let latitude = d.lat;
       let longitude = d.long;
-      let name = d.kabko
+      let name = d.ikan
       if (
         latitude != null &&
         longitude != null &&
@@ -100,6 +100,6 @@ var map = L.map("map").setView([-3.200000, 118.816666], 5);
         marker = L.marker([latitude, longitude], {
           icon: icon,
         }).addTo(layerGroup);
-        marker.bindPopup(` <h5 class="card-title" style="font-size:16px; font-weight:bolder; padding:2px">` + name + `</h5>`);
+        marker.bindPopup(` <h5 class="card-title" style="font-size:12px; font-weight:bolder; padding:2px">` + name + `</h5>`);
       }
     }

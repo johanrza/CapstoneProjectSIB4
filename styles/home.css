@@ -20,7 +20,12 @@
 
 nav {
   background-color: #174063;
+<<<<<<< HEAD
   opacity: 0.8;
+=======
+  position: fixed;
+  z-index: 2;
+>>>>>>> ce8dbed0e8fa954e2d6c89c603381fa4335215a4
 }
 
 .nav-pills li a {
@@ -30,15 +35,26 @@ nav {
 .footer {
   background-color: #174063;
   color: white;
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
+<<<<<<< HEAD
   z-index: -1;
   opacity: 0.8;
+=======
+  z-index: 1;
+>>>>>>> ce8dbed0e8fa954e2d6c89c603381fa4335215a4
 }
 
-i {
+#card a {
+  text-decoration: none;
+  min-height: 44px;
+  font-size: 16px;
+}
+
+#card i {
+  margin-top: 4px;
+}
+
+nav i, #navDrawer i {
   color: white;
   font-size: 20px;
 }
@@ -46,7 +62,6 @@ i {
 #navDrawer button {
   background-color: #174063;
 }
-
 
 /* Preloader */
 
@@ -76,8 +91,12 @@ i {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border-radius: 50%;
+<<<<<<< HEAD
   background: radial-gradient(farthest-side, #3099f0 94%, #0000) top/8px 8px no-repeat,
     conic-gradient(#0000 10%, #3099f0);
+=======
+  background: radial-gradient(farthest-side, #3099f0 94%, #0000) top/8px 8px no-repeat, conic-gradient(#0000 10%, #3099f0);
+>>>>>>> ce8dbed0e8fa954e2d6c89c603381fa4335215a4
   -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
   width: 90px;
   height: 90px;
@@ -94,20 +113,28 @@ i {
   }
 }
 
-/* Weather */
+/* Weather widget */
 .weather-widget {
   position: fixed;
   top: 20px;
   right: 20px;
   display: none;
   height: 100px;
+  z-index: -1;
 }
+<<<<<<< HEAD
 
 .weather-icon img {
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 1));
 }
 
 .card {
+=======
+.weather-widget .weather-icon img {
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 1));
+}
+.weather-widget .card {
+>>>>>>> ce8dbed0e8fa954e2d6c89c603381fa4335215a4
   border-radius: 9px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 16px;
@@ -116,12 +143,17 @@ i {
   -webkit-backdrop-filter: blur(6.1px);
   border: 1px solid rgba(255, 255, 255, 0.31);
 }
+<<<<<<< HEAD
 
 .card-title {
+=======
+.weather-widget .card-title {
+>>>>>>> ce8dbed0e8fa954e2d6c89c603381fa4335215a4
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 5px;
 }
+<<<<<<< HEAD
 
 .card-text {
   font-size: 14px;
@@ -133,6 +165,16 @@ i {
 }
 
 .weather-temp {
+=======
+.weather-widget .card-text {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.weather-widget .card-body {
+  padding: 0;
+}
+.weather-widget .weather-temp {
+>>>>>>> ce8dbed0e8fa954e2d6c89c603381fa4335215a4
   margin-right: 20px;
 }
 
@@ -141,9 +183,43 @@ sup {
   position: relative;
   top: -20px;
 }
+<<<<<<< HEAD
 
 .error-message {
   font-size: 14px;
   color: red;
   text-align: center;
 }
+=======
+.weather-widget .error-message {
+  font-size: 14px;
+  color: red;
+  text-align: center;
+}
+
+/* search & card weather */
+
+#weatherInputCity.container,
+#news.container {
+  margin: 0 auto;
+}
+
+#weatherInputCity h1,
+#news h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#weatherCardContainer {
+  margin-bottom: 100px;
+}
+
+#weatherCardContainer img + p {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#weatherCardContainer .card-img-top {
+  max-width: 200px;
+}
+>>>>>>> ce8dbed0e8fa954e2d6c89c603381fa4335215a4

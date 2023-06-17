@@ -243,5 +243,50 @@ let data_ikan_indonesia =[
       "ikan": "Koordinat Ikan : -6.2915, 110.9165",
       "lat":  -6.2915,
       "long": 110.9165
+    },
+    {
+      "ikan": "Koordinat Ikan : 6.7085, 97.5415",
+      "lat":  6.7085,
+      "long": 97.5415
+    },
+    {
+      "ikan": "Koordinat Ikan : 6.5835, 97.6665",
+      "lat":  6.5835,
+      "long": 97.6665
+    },
+    {
+      "ikan": "Koordinat Ikan : 6.4585, 97.2915",
+      "lat":  6.4585,
+      "long": 97.2915
+    },
+    {
+      "ikan": "Koordinat Ikan : 6.0835, 96.9165",
+      "lat":  6.0835,
+      "long": 96.9165
+    },
+    {
+      "ikan": "Koordinat Ikan : 3.5835, 96.4165",
+      "lat":  3.5835,
+      "long": 96.4165
+    },
+    {
+      "ikan": "Koordinat Ikan : 3.5835, 96.6665",
+      "lat":  3.5835,
+      "long": 96.6665
+    },
+    {
+      "ikan": "Koordinat Ikan : 3.2085, 96.7915",
+      "lat":  3.2085,
+      "long": 96.7915
+    },
+    {
+      "ikan": "Koordinat Ikan : 3.0835, 96.7915",
+      "lat":  3.0835,
+      "long": 96.7915
+    },
+    {
+      "ikan": "Koordinat Ikan : -5.1665, 108.7915",
+      "lat":  -5.1665,
+      "long": 108.7915
     }
   ];

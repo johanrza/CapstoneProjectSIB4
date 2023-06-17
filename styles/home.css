@@ -21,7 +21,17 @@ nav {
   z-index: 1;
 }
 
-i {
+#card a {
+  text-decoration: none;
+  min-height: 44px;
+  font-size: 16px;
+}
+
+#card i {
+  margin-top: 4px;
+}
+
+nav i, #navDrawer i {
   color: white;
   font-size: 20px;
 }
@@ -29,7 +39,6 @@ i {
 #navDrawer button {
   background-color: #174063;
 }
-
 
 /* Preloader */
 
@@ -59,9 +68,7 @@ i {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border-radius: 50%;
-  background: radial-gradient(farthest-side, #3099f0 94%, #0000) top/8px 8px
-      no-repeat,
-    conic-gradient(#0000 10%, #3099f0);
+  background: radial-gradient(farthest-side, #3099f0 94%, #0000) top/8px 8px no-repeat, conic-gradient(#0000 10%, #3099f0);
   -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 8px), #000 0);
   width: 90px;
   height: 90px;
@@ -127,11 +134,13 @@ sup {
 
 /* search & card weather */
 
-#weatherInputCity.container {
+#weatherInputCity.container,
+#news.container {
   margin: 0 auto;
 }
 
-#weatherInputCity h1 {
+#weatherInputCity h1,
+#news h1 {
   text-align: center;
   margin-bottom: 30px;
 }

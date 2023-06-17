@@ -1,6 +1,36 @@
 {
   "news": [
     {
+      "image": "https://akcdn.detik.net.id/community/media/visual/2023/05/26/kkp-tertibkan-9-kapal-ikan-ri-yang-tak-sesuai-izin-3_43.jpeg?w=250&q=",
+      "title": "Alarm! Konflik Kapal Besar dan Nelayan Kecil Berefek Domino ke Laut Indonesia",
+      "description": "Keberlanjutan laut tanggung jawab banyak orang, tapi nelayan juga memegang pengaruh kuat. Mencegah konflik nelayan bisa jadi kunci.",
+      "newsUrl": "https://travel.detik.com/travel-news/d-6767380/alarm-konflik-kapal-besar-dan-nelayan-kecil-berefek-domino-ke-laut-indonesia"
+    },
+    {
+      "image": "https://akcdn.detik.net.id/community/media/visual/2022/10/07/potret-nelayan-isi-jeriken-dengan-solar-bersubsidi-di-atas-perahu-3_43.jpeg?w=250&q=",
+      "title": "Banyak Nelayan Beli Solar Rp 12 Ribu/Liter, Menkop UKM Percepat Bangun SPBUN",
+      "description": "Dari 11.000 desa nelayan, hanya ada 388 SPBU bersubsidi. Akibatnya sebagian besar nelayan membeli solar dengan harga di atas harga pasar.",
+      "newsUrl": "https://finance.detik.com/berita-ekonomi-bisnis/d-6767168/banyak-nelayan-beli-solar-rp-12-ribuliter-menkop-ukm-percepat-bangun-spbun"
+    },
+    {
+      "image": "https://akcdn.detik.net.id/community/media/visual/2023/06/11/kementan_43.jpeg?w=250&q=",
+      "title": "Kementan Pamerkan Buah Jumbo & Tropis Khas RI di Penas XVI Petani-Nelayan",
+      "description": "Penas Petani Nelayan merupakan forum bagi petani, nelayan, dan petani hutan sebagai wadah belajar, bertukar informasi, hingga pengembangan kemitraan.",
+      "newsUrl": "https://finance.detik.com/berita-ekonomi-bisnis/d-6766589/kementan-pamerkan-buah-jumbo--tropis-khas-ri-di-penas-xvi-petani-nelayan"
+    },
+    {
+      "image": "https://akcdn.detik.net.id/community/media/visual/2023/06/10/nelayan-terdampar_43.jpeg?w=250&q=",
+      "title": "2 Nelayan Bima yang Hilang Ditemukan Terdampar di Pulau Sapinggang Sulsel",
+      "description": "Dua orang nelayan asal Kota Bima, Nusa Tenggara Barat (NTB), yang dilaporkan hilang saat melaut di perairan Sempungu, Bima, ditemukan dalam keadaan selamat.",
+      "newsUrl": "https://www.detik.com/bali/nusra/d-6766013/2-nelayan-bima-yang-hilang-ditemukan-terdampar-di-pulau-sapinggang-sulsel"
+    },
+    {
+      "image": "https://akcdn.detik.net.id/community/media/visual/2023/06/10/paket-ibadah-untuk-nelayan_43.jpeg?w=250&q=",
+      "title": "KKP Beri Hadiah Umrah & Ziarah Rohani ke 4 Pasangan Nelayan di Maluku",
+      "description": "Mereka adalah Jakaria Rahawarin dan Hijir Matdoan (umrah), serta Benny Subo dan Stevi Kolway (ziarah rohani Vatikan).",
+      "newsUrl": "https://news.detik.com/berita/d-6765919/kkp-beri-hadiah-umrah--ziarah-rohani-ke-4-pasangan-nelayan-di-maluku"
+    },
+    {
       "image": "https://akcdn.detik.net.id/community/media/visual/2023/06/10/nelayan-ditemukan-tewas_43.jpeg?w=250&q=",
       "title": "Nelayan Bima yang Hilang Saat Jala Ikan Ditemukan Meninggal",
       "description": "Syafruddin alias One, nelayan di Bima yang dilaporkan hilang akhirnya ditemukan meninggal dunia.",
@@ -17,36 +47,6 @@
       "title": "Nelayan Bima Diduga Tenggelam, Perahunya Terdampar di Pantai",
       "description": "Seorang nelayan di Kabupaten Bima, Nusa Tenggara Barat (NTB), dilaporkan menghilang di perairan Sape, Bima.",
       "newsUrl": "https://www.detik.com/bali/nusra/d-6764018/nelayan-bima-diduga-tenggelam-perahunya-terdampar-di-pantai"
-    },
-    {
-      "image": "https://akcdn.detik.net.id/community/media/visual/2023/06/01/pt-timah-tbk_43.jpeg?w=250&q=",
-      "title": "PT Timah Tanggapi Penolakan Aktivitas Tambang, Sebut Miliki IUP",
-      "description": "Pihak PT Timah Tbk menanggapi aksi penolakan akan beroperasinya aktivitas tambang timah dari para nelayan di Pulau Bangka. Mereka menegaskan telah memiliki IUP.",
-      "newsUrl": "https://www.detik.com/sumbagsel/berita/d-6750955/pt-timah-tanggapi-penolakan-aktivitas-tambang-sebut-miliki-iup"
-    },
-    {
-      "image": "https://akcdn.detik.net.id/community/media/visual/2023/05/30/nelayan-di-babel-saat-aksi-protes-tambang-timah_43.jpeg?w=250&q=",
-      "title": "Nelayan Babel Tolak Aktivitas Tambang Timah di Kawasan Tangkap Ikan",
-      "description": "Nelayan di Bangka Belitung menolak aktivitas tambang timah. Nelayan menilai lokasi tersebut adalah kawasan tangkap ikan.",
-      "newsUrl": "https://www.detik.com/sumbagsel/berita/d-6747846/nelayan-babel-tolak-aktivitas-tambang-timah-di-kawasan-tangkap-ikan"
-    },
-    {
-      "image": "https://akcdn.detik.net.id/community/media/visual/2023/05/24/nelayan-temukan-3-paket-diduga-kokain-di-kepulauan-anambas-kepri-foto-istimewa_43.jpeg?w=250&q=",
-      "title": "Nelayan Temukan 3 Kg Kokain Lalu Menguburnya Berujung Jadi Tersangka",
-      "description": "Polisi menetapkan dua orang nelayan penemu kokain 3 kg kokain di Kabupaten Anambas, Kepri, sebagai tersangka. Begini kasusnya.",
-      "newsUrl": "https://www.detik.com/jateng/hukum-dan-kriminal/d-6747415/nelayan-temukan-3-kg-kokain-lalu-menguburnya-berujung-jadi-tersangka"
-    },
-    {
-      "image": "https://akcdn.detik.net.id/community/media/visual/2015/12/08/8aa9a87b-5bdb-480b-899f-70ab112d663e_43.jpg?w=250&q=",
-      "title": "Terpeleset dari Perahu, Nelayan Indramayu Tewas di Perairan Subang",
-      "description": "Seorang nelayan asal Indramayu ditemukan tewas. Nelayan asal Indramayu ini diduga terpeleset dari perahu hingga terjatuh di perairan Subang.",
-      "newsUrl": "https://www.detik.com/jabar/berita/d-6747103/terpeleset-dari-perahu-nelayan-indramayu-tewas-di-perairan-subang"
-    },
-    {
-      "image": "https://akcdn.detik.net.id/community/media/visual/2023/05/29/menengok-pabrik-galangan-kapal-punya-nelayan-1_43.jpeg?w=250&q=",
-      "title": "Menengok Galangan Kapal Nelayan",
-      "description": "Di Banda Aceh terdapat galangan tradisional yang membuat dan memperbaiki kapal nelayan. Yuk tengok kesibungan di galangan tradisional tersebut.",
-      "newsUrl": "https://finance.detik.com/foto-bisnis/d-6745576/menengok-galangan-kapal-nelayan"
     }
   ]
 }

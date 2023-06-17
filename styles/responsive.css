@@ -56,7 +56,7 @@
     max-width: 1000px;
   }
 
-  #weatherInputCity > div {
+  #weatherInputCity > div, #news > div {
     margin-left: 70px;
   }
 

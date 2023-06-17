@@ -3,20 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Marin - Weather App</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="./image/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./image/favicon/site.webmanifest">
-    <link rel="mask-icon" href="./image/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <title>Marin - News App</title>
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./image/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./image/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./image/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./image/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="./image/favicon/safari-pinned-tab.svg" color="#5bbad5" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="./styles/home.css" />
     <link rel="stylesheet" href="./styles/responsive.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
@@ -34,12 +35,12 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="news.html" class="nav-link py-3 border-bottom rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="News" data-bs-title="News">
+          <a href="./" class="nav-link active py-3 border-bottom rounded-0" aria-current="page" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="News" data-bs-title="News">
             <i class="fa-solid fa-newspaper"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a href="./" class="nav-link active py-3 border-bottom rounded-0" aria-current="page" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Weather" data-bs-title="Weather">
+          <a href="./weather.html" class="nav-link py-3 border-bottom rounded-0" data-bs-toggle="tooltip" data-bs-placement="right" aria-label="Weather" data-bs-title="Weather">
             <i class="fa-solid fa-cloud"></i>
           </a>
         </li>
@@ -84,22 +85,19 @@
           <a class="nav-link py-3" href="home.html"><i class="fa-solid fa-house"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link py-3" href="news.html"><i class="fa-solid fa-newspaper"></i></a>
+          <a class="nav-link active py-3" aria-current="page" href="./"><i class="fa-solid fa-newspaper"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active py-3 border-bottom rounded-0" aria-current="page" href="./"><i class="fa-solid fa-cloud"></i></a>
+          <a class="nav-link py-3 border-bottom rounded-0" href="weather.html"><i class="fa-solid fa-cloud"></i></a>
         </li>
       </ul>
     </nav>
 
     <main>
-      <section id="weatherInputCity" class="container pt-5">
+      <section id="news" class="container pt-5">
         <div class="mb-3">
-          <h1>Weather Forecast</h1>
-          <label for="cityInput" class="form-label">Enter City:</label>
-          <input type="text" class="form-control" id="cityInput" placeholder="Enter city name" required />
-          <div class="form-text text-muted"><small>Example: Yogyakarta, Lombok, Bandung</small></div>
-          <button id="getWeather" type="button" class="btn btn-primary mt-3">Get Weather</button>
+          <h1>Related News</h1>
+          <div id="card" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4"></div>
         </div>
       </section>
       <section id="weatherCardContainer" class="mt-5 mx-auto">
@@ -130,5 +128,6 @@
     <script src="./scripts/home.js"></script>
     <script src="./scripts/navigation.js"></script>
     <script src="./scripts/weather-card.js" type="module"></script>
+    <script src="./scripts/article.js" type="module"></script>
   </body>
 </html>

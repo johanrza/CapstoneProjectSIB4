@@ -1,7 +1,7 @@
 # CapstoneProjectSIB4
 
-## FRONT-END
+## FRONT-END Repo
 
 link : https://marin-indonesia.000webhostapp.com/ 
-user : admin 
-password : admin
+- user : admin 
+- password : admin
